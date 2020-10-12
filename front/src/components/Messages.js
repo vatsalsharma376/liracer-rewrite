@@ -5,6 +5,8 @@ import colors from '../colors'
 const MessageDiv = styled.div`
   // Make it easy to visually differentiate messages
   padding-bottom: 7px;
+  overflow: scroll;
+  height: 100%;
 `
 
 const Message = (props) => {
@@ -20,7 +22,7 @@ const MessagesDiv = styled.div`
   flex-basis: 100%;
   height: 100%;
   padding: 1rem;
-  overflow: scroll;
+  overflow: hidden;
   color: ${colors.layer1Foreground};
   // Copied from default React index.css
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
