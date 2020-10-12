@@ -7,6 +7,7 @@ const contentPadding = '1rem'
 
 const Pre = styled.pre`
   padding: ${contentPadding};
+  overflow: hidden;
   margin: 0;
   color: ${colors.layer1Foreground};
   outline: none;
