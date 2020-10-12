@@ -6,10 +6,12 @@ const titleBarHeight = '30px'
 
 const Titlebar = styled.div`
   height: ${titleBarHeight};
+  overflow: hidden;
   background: ${colors.layer2Background};
 `
 
 const Content = styled.div`
+  overflow: hidden;
   height: calc(100% - ${titleBarHeight});
   background: ${colors.layer1Background};
 `
