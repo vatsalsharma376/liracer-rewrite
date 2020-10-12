@@ -7,6 +7,7 @@ import colors from '../colors'
 const FlexBox = styled.div`
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   height: 100%;
 `
 
@@ -14,6 +15,7 @@ const ChatForm = styled.form`
   background: ${colors.layer2Background};
   height: 50px;
   display: flex;
+  overflow: hidden;
   padding: calc(1rem / 2);
   box-sizing: border-box;
 `
@@ -23,6 +25,7 @@ const ChatInput = styled.input`
   color: ${colors.layer1Foreground};
   border: 0;
   width: 100%;
+  overflow: hidden;
   padding: 0 3px 3px 0;
   box-sizing: border-box;
   outline: none;
