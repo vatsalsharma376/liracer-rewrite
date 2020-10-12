@@ -6,8 +6,7 @@ const MessageDiv = styled.div`
   // Make it easy to visually differentiate messages
   padding-bottom: 7px;
   overflow: scroll;
-  min-height: min-content;
-  height: 100%;
+  
 `
 
 const Message = (props) => {
@@ -22,6 +21,7 @@ const Message = (props) => {
 const MessagesDiv = styled.div`
   flex-basis: 100%;
   height: 100%;
+  position: relative;
   padding: 1rem;
   overflow: hidden;
   min-height: min-content;
